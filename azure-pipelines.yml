@@ -40,3 +40,10 @@ steps:
     codeCoverageTool: 'Cobertura'
     summaryFileLocation: '$(Build.SourcesDirectory)/coverage/ng-azure-devops/cobertura-coverage.xml'
   displayName: 'Publish Code Coverage Results'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'dist/ng-azure-devops'
+    ArtifactName: 'web-app'
+    publishLocation: 'Container'
+  displayName: 'Publish Artifacts' 
