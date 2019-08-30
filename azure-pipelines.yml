@@ -20,3 +20,6 @@ steps:
 
 - script: npx ng build --prod
   displayName: 'Build'
+
+- script: npx ng test --watch=false
+  displayName: 'Tests'
