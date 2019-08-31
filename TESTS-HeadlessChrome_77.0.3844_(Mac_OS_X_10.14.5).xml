@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 77.0.3844 (Mac OS X 10.14.5)" package="" timestamp="2019-08-31T21:05:21" id="0" hostname="Adelor.local" tests="3" errors="0" failures="0" time="0.267">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/77.0.3844.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should render title" time="0.13" classname="HeadlessChrome_77_0_3844_(Mac_OS_X_10_14_5).AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.082" classname="HeadlessChrome_77_0_3844_(Mac_OS_X_10_14_5).AppComponent"/>
+  <testcase name="AppComponent should have as title 'ng-azure-devops'" time="0.055" classname="HeadlessChrome_77_0_3844_(Mac_OS_X_10_14_5).AppComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 77.0.3844 (Mac OS X 10.14.5) LOG: 'config', undefined
+,HeadlessChrome 77.0.3844 (Mac OS X 10.14.5) LOG: 'config', undefined
+,HeadlessChrome 77.0.3844 (Mac OS X 10.14.5) LOG: 'config', undefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
